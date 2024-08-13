@@ -4,7 +4,11 @@ import { Route, Routes } from 'react-router-dom'
 import Layout from './components/Layout'
 import Footer from './components/Footer'
 import ArticlePage from './components/ArticlePage'
+import About from './components/About'
+
 import articles from './articles'
+
+import groupImage from '/Users/admin/Desktop/wpa-esn/esnhaagahelia/src/photo/groupPhoto.jpeg'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,7 +18,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Layout />}>
           <Route index element={"<Home imagePath={myImage} />"} />
-          <Route path='about' element={"<About imagePath={myImage} />"} />
+          <Route path='about' element={<About imagePath={groupImage} />} />
           <Route path='events' element={"<Events />"} />
           {articles.map(article => (
             <Route

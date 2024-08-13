@@ -1,0 +1,33 @@
+.photo-text-box {
+    display: flex;
+    border: 1px solid #ccc;
+    max-width: 85%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    align-items: center;
+}
+
+.photo-container {
+    flex: 1;
+}
+
+.photo {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-container {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+
+@media (max-width: 600px) {
+    .photo-text-box {
+        flex-direction: column;
+    }
+}
