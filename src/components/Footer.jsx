@@ -27,7 +27,7 @@ function Footer() {
                 </a>
             </div>
             <div className="address">
-                <p>Ratapihantie 13a Helsinki, 00520 Finland</p>
+                <p>Ratapihantie 13 Helsinki, 00520 Finland</p>
             </div>
             <div className="address">
                 <p>Office hours: TBA</p>
