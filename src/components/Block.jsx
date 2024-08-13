@@ -21,8 +21,8 @@ export default function Block({ title, description, price, photo, date, linkToEv
             </div>
             <div className="card-footer">
                 <span className="text-title">{formattedDate ? formattedDate : price}</span>
-                <a href={linkToEvent}>
-                    <div className="card-button">
+                <a href={linkToEvent} target="_blank" rel="noopener noreferrer">
+                    <div className="card-button" >
                         See more
                     </div>
                 </a>

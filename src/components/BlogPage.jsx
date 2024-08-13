@@ -32,7 +32,7 @@ function BlogPage({ }) {
                         description={esnCardBlock.description}
                         price={esnCardBlock.price}
                         photo={esnCardBlock.photo}
-                        date={esnCardBlock.date} />
+                        linkToEvent={esnCardBlock.linkToEvent} />
                 )}
             </div>
         </div>

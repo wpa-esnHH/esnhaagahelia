@@ -1,4 +1,6 @@
 import esnCardPhoto from '/Users/admin/Desktop/wpa-esn/esnhaagahelia/src/photo/esnCard.png'
+import wtf from '/Users/admin/Desktop/wpa-esn/esnhaagahelia/src/photo/wtfParty.jpg'
+import culturalAppro from '/Users/admin/Desktop/wpa-esn/esnhaagahelia/src/photo/culturalAppro.jpg'
 
 const blocksData = [
     {
@@ -23,6 +25,7 @@ const blocksData = [
         description: "Description and details for Esn card",
         price: "€15",
         photo: esnCardPhoto,
+        linkToEvent: 'https://kide.app/memberships/b63177d3-6104-409b-8ad6-8c3d25f4a45d'
     },
     {
         id: 4,
@@ -48,7 +51,25 @@ const blocksData = [
         date: "2024-10-11",
         linkToEvent: "https://www.timetravels.com/adventure-trip-to-iceland-0124-is-00000056.html"
     },
+    {
+        id: 7,
+        title: "Welcome to Finland",
+        description: "ESN presents: WTF - Welcome to Finland Party",
+        photo: wtf,
+        date: "2024-08-28",
+        linkToEvent: "https://kide.app/events/67341901-2d9a-4d02-ab6e-3f1cac77c96c"
+    },
+    {
+        id: 8,
+        title: "Cultural Appro",
+        description: "Organised by IDS x ESN",
+        photo: culturalAppro,
+        date: "2024-08-23",
+        linkToEvent: "https://kide.app/events/67341901-2d9a-4d02-ab6e-3f1cac77c96c"
+    },
 
 ];
+
+//https://kide.app/events/0f9a3140-8599-4bea-8aaf-ab1b1ac130f3
 
 export default blocksData;
