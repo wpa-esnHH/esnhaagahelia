@@ -1,0 +1,164 @@
+.navbar {
+    background-color: #2389d2;
+    /* Adjust background color */
+    padding: 10px;
+    /* Adjust padding */
+}
+
+.navbar-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    /* Align items with space between them */
+    align-items: center;
+    /* Align items vertically */
+    z-index: 2;
+}
+
+
+.navbar-links a {
+    color: white;
+    /* Adjust link color */
+    text-decoration: none;
+    font-size: 16px;
+    /* Adjust font size */
+}
+
+.navbar-links a:hover {
+    color: #000000;
+    /* Adjust link color on hover */
+}
+
+.logo-img {
+    width: 90px;
+    /* Adjust as needed */
+    height: auto;
+}
+
+.navbar-toggle {
+    background-color: transparent;
+    /* Transparent background */
+    border: none;
+    /* Remove border */
+    cursor: pointer;
+    /* Show pointer cursor on hover */
+    display: none;
+    /* Initially hide toggle button for larger screens */
+}
+
+.navbar-brand {
+    flex-grow: 1;
+}
+
+.navbar-right {
+    margin-right: 5%;
+}
+
+.navbar-toggle-icon {
+    font-size: 20px;
+    /* Icon size */
+    color: white;
+    /* Icon color */
+}
+
+/* Media query for responsive layout */
+@media (max-width: 768px) {
+    .navbar-toggle {
+        display: block;
+        /* Show toggle button for smaller screens */
+    }
+
+    .navbar-links {
+        display: none;
+        /* Initially hide navbar links for smaller screens */
+        flex-direction: column;
+        /* Stack navbar links vertically */
+        position: absolute;
+        /* Position navbar links absolutely */
+        top: 100%;
+        /* Position navbar links below toggle button */
+        left: 0;
+        /* Align navbar links to the left */
+        background-color: #2389d2;
+        /* Background color for navbar links */
+        width: 100%;
+        /* Full width */
+    }
+
+    .navbar-links.active {
+        top: 60px;
+        display: flex;
+        /* Show navbar links when navbar is toggled */
+    }
+
+    .navbar-links li {
+        margin-bottom: 10px;
+        /* Spacing between navbar items */
+    }
+}
+
+/* dropdown window */
+.paste-button {
+    position: relative;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.button {
+    background-color: #ffffff;
+    color: #212121;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    font-size: 13px;
+    position: absolute;
+    z-index: 1;
+    min-width: 200px;
+    background-color: #212121;
+    border: 2px solid #ffffff;
+    border-radius: 0px 15px 15px 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    color: #2389d2;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+    transition: 0.1s;
+}
+
+.dropdown-content a:hover {
+    background-color: #2389d2;
+    color: #212121;
+}
+
+.dropdown-content a:focus {
+    background-color: #212121;
+    color: #2389d2;
+}
+
+.dropdown-content #top:hover {
+    border-radius: 0px 13px 0px 0px;
+}
+
+.dropdown-content #bottom:hover {
+    border-radius: 0px 0px 13px 13px;
+}
+
+.paste-button:hover button {
+    border-radius: 15px 15px 0px 0px;
+}
+
+.paste-button:hover .dropdown-content {
+    display: block;
+}
