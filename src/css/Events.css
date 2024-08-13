@@ -1,0 +1,35 @@
+.event_blocks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.events {
+    text-align: center;
+    margin: 10px;
+}
+
+
+.events h1 {
+    font-size: 2em;
+
+    text-align: center;
+
+    margin-bottom: 20px;
+
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .events h1 {
+        font-size: 1.8em;
+        /* Adjust font size for large tablets and smaller desktops */
+    }
+}
+
+.events button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}

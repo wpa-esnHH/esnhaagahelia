@@ -1,0 +1,62 @@
+.header {
+    width: 100%;
+    /* Ensure the header spans the entire width of its container */
+    display: flex;
+    /* Use flexbox to align items */
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* Center the image horizontally */
+}
+
+.header h1 {
+    margin: 15%;
+}
+
+
+.header-img {
+    width: 100%;
+    /* Make the image span the entire width of its container */
+    height: 60%;
+    /* Maintain the aspect ratio */
+    max-width: 100%;
+    position: relative;
+
+    /* Ensure the image doesn't exceed its original size */
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+@media (max-width: 600px) {
+    .header {
+        justify-content: flex-start;
+        /* Align content to the start on small screens */
+        background-attachment: scroll;
+        /* Disable fixed background for better performance */
+        height: 40vh;
+        object-fit: cover;
+    }
+
+    .header h1 {
+        margin: 10%;
+        font-size: 1.5em;
+        display: flex;
+        align-items: center;
+    }
+
+    .header-img {
+        height: 80vh;
+        object-fit: cover;
+
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+}

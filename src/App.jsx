@@ -5,6 +5,8 @@ import Layout from './components/Layout'
 import Footer from './components/Footer'
 import ArticlePage from './components/ArticlePage'
 import About from './components/About'
+import Events from './components/Events'
+import Home from './components/Home'
 
 import articles from './articles'
 
@@ -17,9 +19,9 @@ function App() {
     <>
       <Routes>
         <Route path='/' element={<Layout />}>
-          <Route index element={"<Home imagePath={myImage} />"} />
+          <Route index element={<Home imagePath={groupImage} />} />
           <Route path='about' element={<About imagePath={groupImage} />} />
-          <Route path='events' element={"<Events />"} />
+          <Route path='events' element={<Events />} />
           {articles.map(article => (
             <Route
               key={article.id}
