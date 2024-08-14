@@ -24,6 +24,9 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Add CNAME
+        run: echo "esnhaagahelia.eu" > dist/CNAME
+
       - name: Configure Git
         run: |
           git config --global user.name 'github-actions[bot]'
