@@ -1,5 +1,5 @@
-import accomodationPhoto from "/Users/admin/Desktop/wpa-esn/esnhaagahelia/src/photo/accommodation.jpeg"
-import churchPhoto from "/Users/admin/Desktop/ESN_Haaga-Helia/esnhaagahelia/src/photo/Finland_Helsinki_Church_1-1068x712.jpg"
+import accomodationPhoto from "./photo/accommodation.jpeg"
+import churchPhoto from "./photo/Finland_Helsinki_Church_1-1068x712.jpg"
 
 const articles = [
     {
