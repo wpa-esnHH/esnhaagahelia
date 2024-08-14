@@ -10,7 +10,7 @@ import Home from './components/Home'
 
 import articles from './articles'
 
-import groupImage from '/Users/admin/Desktop/wpa-esn/esnhaagahelia/src/photo/groupPhoto.jpeg'
+import groupImage from './photo/groupPhoto.jpeg'
 
 function App() {
   const [count, setCount] = useState(0)
