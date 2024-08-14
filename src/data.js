@@ -1,6 +1,6 @@
-import esnCardPhoto from '/Users/admin/Desktop/wpa-esn/esnhaagahelia/src/photo/esnCard.png'
-import wtf from '/Users/admin/Desktop/wpa-esn/esnhaagahelia/src/photo/wtfParty.jpg'
-import culturalAppro from '/Users/admin/Desktop/wpa-esn/esnhaagahelia/src/photo/culturalAppro.jpg'
+import esnCardPhoto from './photo/esnCard.png'
+import wtf from './photo/wtfParty.jpg'
+import culturalAppro from './photo/culturalAppro.jpg'
 
 const blocksData = [
     {
