@@ -1,7 +1,7 @@
 import { Outlet, Link } from "react-router-dom";
 import '../css/Layout.css';
 import { useState } from "react";
-import esnImage from '/Users/admin/Desktop/wpa-esn/esnhaagahelia/src/photo/ESN-logo-full-colour-safe-space-rgb.png'
+import esnImage from '../photo/ESN-logo-full-colour-safe-space-rgb.png'
 import articles from "../articles";
 
 
