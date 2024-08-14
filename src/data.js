@@ -15,9 +15,9 @@ const blocksData = [
         id: 2,
         title: "Adventure to Lapland",
         description: "Early season edition (from Helsinki)",
-        photo: "https://www.timetravels.com/cdn-cgi/image/width=379,height=255,fit=cover,onerror=redirect/media/catalog/product/s/e/ser_0896_41.jpg",
-        date: "2024-11-15",
-        linkToEvent: "https://www.timetravels.com/adventure-to-northern-lapland-saariselka-0124-lfs-00000127.html"
+        photo: "https://www.timetravels.com/cdn-cgi/image/width=551,height=375,fit=cover,onerror=redirect/media/catalog/product/d/s/dsc02763-2_1.jpg",
+        date: "2024-11-17",
+        linkToEvent: "https://www.timetravels.com/adventure-to-northern-lapland-kilpisjarvi-0124-lfkh-00000063.html"
     },
     {
         id: 3,
@@ -37,22 +37,6 @@ const blocksData = [
     },
     {
         id: 5,
-        title: "Magic Lapland",
-        description: "Kiruna, Björkliden, Tromsø, Kilpisjärvi",
-        photo: "https://www.timetravels.com/cdn-cgi/image/width=771,height=525,fit=cover,onerror=redirect/media/catalog/product/n/o/norway-1247175_1920.jpg",
-        date: "2024-12-27",
-        linkToEvent: "https://www.timetravels.com/magic-lapland-0224-lml-00000004.html"
-    },
-    {
-        id: 6,
-        title: "Adventure in Iceland",
-        description: "Reykjavik, Kerid, Reynisfjara, Vik, Laugarvatn",
-        photo: "https://www.timetravels.com/cdn-cgi/image/width=771,height=525,fit=cover,onerror=redirect/media/catalog/product/d/s/dsc05175-min_2.jpg",
-        date: "2024-10-11",
-        linkToEvent: "https://www.timetravels.com/adventure-trip-to-iceland-0124-is-00000056.html"
-    },
-    {
-        id: 7,
         title: "Welcome to Finland",
         description: "ESN presents: WTF - Welcome to Finland Party",
         photo: wtf,
@@ -60,7 +44,7 @@ const blocksData = [
         linkToEvent: "https://kide.app/events/67341901-2d9a-4d02-ab6e-3f1cac77c96c"
     },
     {
-        id: 8,
+        id: 6,
         title: "Cultural Appro",
         description: "Organised by IDS x ESN",
         photo: culturalAppro,
@@ -70,6 +54,5 @@ const blocksData = [
 
 ];
 
-//https://kide.app/events/0f9a3140-8599-4bea-8aaf-ab1b1ac130f3
 
 export default blocksData;
