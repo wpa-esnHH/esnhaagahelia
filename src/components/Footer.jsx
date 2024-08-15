@@ -22,15 +22,13 @@ function Footer() {
                     </svg>
 
                 </a>
-                <a>
 
-                </a>
             </div>
             <div className="address">
                 <p>Ratapihantie 13 Helsinki, 00520 Finland</p>
             </div>
             <div className="address">
-                <p>Office hours: TBA</p>
+                <p>Office hours: Office hours available Thursday every two weeks! (13.00-15.00)</p>
             </div>
         </footer>
     );
