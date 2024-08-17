@@ -43,6 +43,14 @@ const blocksData = [
         date: "2024-08-28",
         linkToEvent: "https://kide.app/events/67341901-2d9a-4d02-ab6e-3f1cac77c96c"
     },
+    {
+        id: 6,
+        title: "Cultural Appro",
+        description: "Organised by IDS x ESN",
+        photo: culturalAppro,
+        date: "2024-08-23",
+        linkToEvent: "https://kide.app/events/67341901-2d9a-4d02-ab6e-3f1cac77c96c"
+    },
     
 
 ];
