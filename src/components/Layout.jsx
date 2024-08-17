@@ -20,7 +20,7 @@ const Layout = () => {
             <nav className="navbar">
                 <ul className={`navbar-links ${isOpen ? 'active' : ''}`}>
                     <li className="navbar-brand">
-                        <Link to="/esnhaagahelia"><img src={esnImage} alt="ESN Logo" className="logo-img" /></Link>
+                        <Link to="/"><img src={esnImage} alt="ESN Logo" className="logo-img" /></Link>
                     </li>
                     <li className="navbar-right">
                         <Link to="/" onClick={closeNavbar}>Home</Link>
