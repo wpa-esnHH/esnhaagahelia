@@ -51,6 +51,14 @@ const blocksData = [
         date: "2024-08-23",
         linkToEvent: "https://kide.app/events/67341901-2d9a-4d02-ab6e-3f1cac77c96c"
     },
+     {
+      id: 7,
+        title: "Lofoten trip",
+        description: "ESN Haaga-Helia Adventure trip to Lofoten",
+        photo: "https://www.timetravels.com/cdn-cgi/image/width=771,height=525,fit=cover,onerror=redirect/media/catalog/product/d/s/dsc02969.jpg",
+        date: "2024-09-17",
+        linktoevent: "https://www.timetravels.com/adventure-trip-to-lofoten-0124-nl4-00000083.html"
+    },
     
 
 ];
