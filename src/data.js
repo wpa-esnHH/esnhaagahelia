@@ -59,6 +59,14 @@ const blocksData = [
         date: "2024-09-17",
         linktoevent: "https://www.timetravels.com/adventure-trip-to-lofoten-0124-nl4-00000083.html"
     },
+    {
+      id: 8,
+        title: "Finnish Culture Night",
+        description: "Welcome to get to know Finnish culture",
+        photo: "https://instagram.fflr1-1.fna.fbcdn.net/v/t51.29350-15/456443301_881967280461008_8144661947399432840_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEwODAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fflr1-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=37NAjDtSZFcQ7kNvgE4Z0AZ&edm=AEhyXUkBAAAA&ccb=7-5&ig_cache_key=MzQ0MDIyNTUzMDQ4MzUzMzcwOQ%3D%3D.2-ccb7-5&oh=00_AYDA1eKg6SNJ6jmUzIORYNRN2y7RqaW6gdJWVPXiWZlxEw&oe=66CD75C8&_nc_sid=8f1549",
+        date: "2024-09-06",
+        linktoevent: "https://kide.app/events/d0cfbdfd-215c-403f-ae76-f1089d270774"
+    },
     
 
 ];
