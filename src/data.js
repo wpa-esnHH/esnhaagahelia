@@ -1,6 +1,5 @@
 import esnCardPhoto from './photo/esnCard.png'
 import wtf from './photo/wtfParty.jpg'
-import culturalAppro from './photo/culturalAppro.jpg'
 import finnishCultureNight from './photo/finnish-culture-night.jpg'
 
 const blocksData = [
