@@ -6,7 +6,7 @@ import finnishCultureNight from './photo/finnish-culture-night.jpg'
 const blocksData = [
     {
         id: 1,
-        title: "Fazer visit",
+        title: "Fazer visit!",
         description: "you'll learn about the candy-making process",
         photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGGq57xCMmd0CbERIv2MwAG86A7ouXH4O1KBOFHufvaz5C1ZLhEP79qr_Ngch4-IM7NH8&usqp=CAU",
         date: "2023-02-10",
