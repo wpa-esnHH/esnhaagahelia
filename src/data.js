@@ -44,29 +44,21 @@ const blocksData = [
         date: "2024-08-28",
         linkToEvent: "https://kide.app/events/67341901-2d9a-4d02-ab6e-3f1cac77c96c"
     },
-    {
-        id: 6,
-        title: "Cultural Appro",
-        description: "Organised by IDS x ESN",
-        photo: culturalAppro,
-        date: "2024-08-23",
-        linkToEvent: "https://kide.app/events/67341901-2d9a-4d02-ab6e-3f1cac77c96c"
-    },
      {
-      id: 7,
+      id: 6,
         title: "Lofoten trip",
         description: "ESN Haaga-Helia Adventure trip to Lofoten",
         photo: "https://www.timetravels.com/cdn-cgi/image/width=771,height=525,fit=cover,onerror=redirect/media/catalog/product/d/s/dsc02969.jpg",
         date: "2024-09-17",
-        linktoEvent: "https://www.timetravels.com/adventure-trip-to-lofoten-0124-nl4-00000083.html"
+        linkToEvent: "https://www.timetravels.com/adventure-trip-to-lofoten-0124-nl4-00000083.html"
     },
     {
-      id: 8,
+      id: 7,
         title: "Finnish Culture Night",
         description: "Welcome to get to know Finnish culture",
         photo: finnishCultureNight,
         date: "2024-09-06",
-        linktoEvent: "https://kide.app/events/d0cfbdfd-215c-403f-ae76-f1089d270774"
+        linkToEvent: "https://kide.app/events/d0cfbdfd-215c-403f-ae76-f1089d270774"
     },
     
 
