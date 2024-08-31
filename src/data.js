@@ -1,6 +1,7 @@
 import esnCardPhoto from './photo/esnCard.png'
 import wtf from './photo/wtfParty.jpg'
 import finnishCultureNight from './photo/finnish-culture-night.jpg'
+import parliament from './photo/Parliament.jpg'
 
 const blocksData = [
     {
@@ -58,6 +59,14 @@ const blocksData = [
         photo: finnishCultureNight,
         date: "2024-09-06",
         linkToEvent: "https://kide.app/events/d0cfbdfd-215c-403f-ae76-f1089d270774"
+    },
+    {
+      id: 8,
+        title: "Parliament House Visit",
+        description: "Explore the Heart of Finnish Democracy!",
+        photo: parliament,
+        date: "2024-09-09",
+        linkToEvent: "https://kide.app/events/4a61b218-e5ab-40de-8d8f-47aee0435ef2"
     },
     
 
