@@ -9,7 +9,7 @@ export default function Events() {
     const currentDate = new Date()
 
     const upcomingEvents = blocksData.filter(block => new Date(block.date) >= currentDate).sort((a, b) => new Date(a.date) - new Date(b.date));
-    const previousEvents = blocksData.filter(block => new Date(block.date) < currentDate).sort((a, b) => new Date(a.date) - new Date(b.date));
+    const previousEvents = blocksData.filter(block => new Date(block.date) < currentDate).sort((a, b) => new Date(b.date) - new Date(a.date));
 
 
     const nextUpcomingBlock = () => {
