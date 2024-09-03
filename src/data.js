@@ -2,6 +2,7 @@ import esnCardPhoto from './photo/esnCard.png'
 import wtf from './photo/wtfParty.jpg'
 import finnishCultureNight from './photo/finnish-culture-night.jpg'
 import parliament from './photo/Parliament.jpg'
+import iceHockeyMatch from './photo/iceHockeyMatch.jpg'
 
 const blocksData = [
     {
@@ -67,6 +68,14 @@ const blocksData = [
         photo: parliament,
         date: "2024-09-09",
         linkToEvent: "https://kide.app/events/4a61b218-e5ab-40de-8d8f-47aee0435ef2"
+    },
+    {
+      id: 9,
+        title: "Ice Hockey Match",
+        description: "Visit Ice Hockey Match with ESN Haaga-Helia",
+        photo: iceHockeyMatch,
+        date: "2024-09-28",
+        linkToEvent: "https://kide.app/events/4ed186ab-b694-4acd-a22b-cb67d1e397ad"
     },
     
 
