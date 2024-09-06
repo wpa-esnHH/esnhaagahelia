@@ -3,6 +3,7 @@ import wtf from './photo/wtfParty.jpg'
 import finnishCultureNight from './photo/finnish-culture-night.jpg'
 import parliament from './photo/Parliament.jpg'
 import iceHockeyMatch from './photo/iceHockeyMatch.jpg'
+import DevilsAngels from './photo/Devils&Angels.jpg'
 
 const blocksData = [
     {
@@ -76,6 +77,14 @@ const blocksData = [
         photo: iceHockeyMatch,
         date: "2024-09-28",
         linkToEvent: "https://kide.app/events/4ed186ab-b694-4acd-a22b-cb67d1e397ad"
+    },
+    {
+      id: 10,
+        title: "Devils & Angles",
+        description: "Choose Your Side and Let the Night Unfold!",
+        photo: DevilsAngels,
+        date: "2024-09-19",
+        linkToEvent: "https://kide.app/events/0c86c37e-4655-4088-a027-c7190fc32bc4"
     },
     
 
