@@ -4,13 +4,14 @@ import finnishCultureNight from './photo/finnish-culture-night.jpg'
 import parliament from './photo/Parliament.jpg'
 import iceHockeyMatch from './photo/iceHockeyMatch.jpg'
 import DevilsAngels from './photo/Devils&Angels.jpg'
+import nuuksioTrip from './photo/nuuksioTrip.jpg'
 
 const blocksData = [
     {
         id: 1,
         title: "Fazer visit!",
         description: "you'll learn about the candy-making process",
-        photo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGGq57xCMmd0CbERIv2MwAG86A7ouXH4O1KBOFHufvaz5C1ZLhEP79qr_Ngch4-IM7NH8&usqp=CAU",
+        photo: nuuksioTrip,
         date: "2023-02-10",
         linkToEvent: "https://activities.esn.org/activity/esn-helga-visits-fazer-experience-21486"
     },
