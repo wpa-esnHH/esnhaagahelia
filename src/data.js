@@ -80,6 +80,14 @@ const blocksData = [
         date: "2024-09-19",
         linkToEvent: "https://kide.app/events/0c86c37e-4655-4088-a027-c7190fc32bc4"
     },
+    {
+        id: 10,
+        title: "Trip to Nuuksio",
+        description: "Explore Finnish Autumn in Nuuksio National Park!",
+        photo: nuuksioTrip,
+        date: "2024-10-05",
+        linkToEvent: "https://kide.app/events/bc5e59af-d33a-4391-a37e-6be3b5029a69"
+    },
 ];
 
 
