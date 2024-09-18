@@ -93,7 +93,7 @@ const blocksData = [
         id: 11,
         title: "The Fazer Visit",
         description: "ESN Haaga-Helia Visits the Fazer",
-        photo: fazer_visiit,
+        photo: fazer_visit,
         date: "2024-10-01",
         linkToEvent: "https://kide.app/events/ce93f4a1-e3b7-4b8d-ac94-0c46128b02f0"
     },
