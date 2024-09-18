@@ -5,6 +5,7 @@ import parliament from './photo/Parliament.jpg'
 import iceHockeyMatch from './photo/iceHockeyMatch.jpg'
 import DevilsAngels from './photo/Devils&Angels.jpg'
 import nuuksioTrip from './photo/nuuksioTrip.jpg'
+import fazer_visit from './photo/fazer_visit.jpg'
 
 const blocksData = [
     {
@@ -87,6 +88,14 @@ const blocksData = [
         photo: nuuksioTrip,
         date: "2024-10-05",
         linkToEvent: "https://kide.app/events/bc5e59af-d33a-4391-a37e-6be3b5029a69"
+    },
+    {
+        id: 11,
+        title: "The Fazer Visit",
+        description: "ESN Haaga-Helia Visits the Fazer",
+        photo: fazer_visiit,
+        date: "2024-10-01",
+        linkToEvent: "https://kide.app/events/ce93f4a1-e3b7-4b8d-ac94-0c46128b02f0"
     },
 ];
 
