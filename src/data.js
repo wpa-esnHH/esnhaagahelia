@@ -6,6 +6,7 @@ import iceHockeyMatch from './photo/iceHockeyMatch.jpg'
 import DevilsAngels from './photo/Devils&Angels.jpg'
 import nuuksioTrip from './photo/nuuksioTrip.jpg'
 import fazer_visit from './photo/fazer_visit.jpg'
+import beerpong from './photo/beerpong.jpg'
 
 const blocksData = [
     {
@@ -89,6 +90,7 @@ const blocksData = [
         date: "2024-10-05",
         linkToEvent: "https://kide.app/events/bc5e59af-d33a-4391-a37e-6be3b5029a69"
     },
+    
     {
         id: 11,
         title: "The Fazer Visit",
@@ -96,6 +98,14 @@ const blocksData = [
         photo: fazer_visit,
         date: "2024-10-01",
         linkToEvent: "https://kide.app/events/ce93f4a1-e3b7-4b8d-ac94-0c46128b02f0"
+    },
+    {
+        id: 12,
+        title: "Sail & Sip Beer Pong",
+        description: "Ready for Ultimate Beer Pong Battle?",
+        photo: beerpong,
+        date: "2024-10-09",
+        linkToEvent: "https://kide.app/events/f24e1619-3f49-410b-93ab-03da9bd031b1"
     },
 ];
 
