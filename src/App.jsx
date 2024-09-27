@@ -13,7 +13,7 @@ import articles from './articles'
 import groupImage from './photo/groupPhoto.jpeg'
 
 function App() {
-  const count, setCount] = useState(0)
+  const [count, setCount] = useState(0)
 
   return (
     <>
