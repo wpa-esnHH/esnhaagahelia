@@ -7,6 +7,7 @@ import DevilsAngels from './photo/Devils&Angels.jpg'
 import nuuksioTrip from './photo/nuuksioTrip.jpg'
 import fazer_visit from './photo/fazer_visit.jpg'
 import beerpong from './photo/beerpong.jpg'
+import generalmeeting from './photo/generalmeeting.jpg'
 
 const blocksData = [
     {
@@ -106,6 +107,14 @@ const blocksData = [
         photo: beerpong,
         date: "2024-10-09",
         linkToEvent: "https://kide.app/events/f24e1619-3f49-410b-93ab-03da9bd031b1"
+    },
+    {
+        id: 13,
+        title: "General Meeting",
+        description: "ESN Haaga-Helia's General Meeting",
+        photo: generalmeeting,
+        date: "2024-11-25",
+        linkToEvent: "https://drive.google.com/drive/u/2/folders/12udR65s4sNkfU_co-BqlU6h6pvCQEMPQ"
     },
 ];
 
